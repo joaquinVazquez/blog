@@ -61,3 +61,24 @@ nav .profile-link a{
     color: black;
     border-bottom: 1px solid black;
 }
+
+.home-main{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    height: 100%;
+
+}
+.home-main section{
+    display: grid;
+    grid-column: 2;
+    justify-items: center;
+    height: 240px;
+    margin-top: 16px;
+}
+.home-main-text{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    letter-spacing: 10px;
+}
