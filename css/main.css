@@ -11,6 +11,7 @@ body{
     bottom: 0;
     left: 0;
     right: 0;
+    font-family: 'Roboto Flex', sans-serif;
 }
 a{
     text-decoration: none;
@@ -95,4 +96,25 @@ nav .profile-link a:hover{
     color: var(--green-nice);
     text-align: center;
     letter-spacing: 2px;
+}
+.home-main-button{
+    width: 90px;
+    height: 30px;
+    background-color: var(--green-nice);
+    border: 1px solid white;
+    border-radius: 8px;
+    display: grid;
+    align-items: center;
+}
+.home-main-button a{
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+}
+.home-main-button:hover{
+   background-color: white;
+   border: 1px solid var(--green-nice);
+}
+.home-main-button a:hover{
+    color: var(--green-nice);
 }
