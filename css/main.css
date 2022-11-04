@@ -1,3 +1,6 @@
+:root{
+    --green-nice: #48cfad;
+}
 *{
     margin: 0;
     padding: 0;
@@ -24,7 +27,7 @@ header .header-icons-container{
     width: 100%;
     height: 50px;
     display: grid;
-    background-color: #AA8FD7;
+    background-color: var(--green-nice);
 }
 header .header-icons-container .icons{
     width: 300px;
@@ -60,6 +63,12 @@ nav .profile-link{
 nav .profile-link a{
     color: black;
     border-bottom: 1px solid black;
+    font-family: 'Roboto Flex', sans-serif;
+}
+nav .profile-link a:hover{
+    color: var(--green-nice);
+    border-bottom: 1px solid var(--green-nice);
+    font-weight: bold;
 }
 
 .home-main{
@@ -80,9 +89,10 @@ nav .profile-link a{
     margin-top: 16px;
 }
 .home-main-text{
+    font-family: 'Roboto Flex', sans-serif;
     font-size: 30px;
-    font-weight: bold;
-    color: black;
+    font-weight: 500;
+    color: var(--green-nice);
     text-align: center;
-    letter-spacing: 10px;
+    letter-spacing: 2px;
 }
