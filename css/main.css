@@ -144,6 +144,9 @@ nav .profile-link a:hover{
 .blogs-news-img-container img{
     width: 85%;
 }
+.blogs-news-img-container .blogs-news-img-profile img{
+    border-radius: 25%;
+}
 .blogs-news-info-container{
     grid-column: 2;
 }
